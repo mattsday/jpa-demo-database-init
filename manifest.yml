@@ -1,0 +1,6 @@
+---
+applications:
+- name: jpa-demo-database-init
+  instances: 1
+  path: target/jpa-demo-database-init-0.0.1-SNAPSHOT.jar
+  services: [ CustomerDB ]
